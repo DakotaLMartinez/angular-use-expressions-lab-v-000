@@ -1,7 +1,7 @@
 var path = require('path');
 
 describe('Expressions Test', function() {
-	browser.get('http://localhost:8080');
+	browser.get('https://learn-angular-dakotalmartinez.c9users.io/angular-expressions/angular-use-expressions-lab-v-000/index.html');
 
 	it('should say "You have no emails" if emails is empty', function() {
 		expect(element(by.css('h6')).getInnerHtml()).toEqual('You have no emails');
